@@ -8,7 +8,6 @@ Une application météo en temps réel qui permet d’afficher les conditions ac
 
 - [🛠️ Stack Technique](#️-stack-technique)
 - [🚀 Fonctionnalités](#-fonctionnalités)
-- [📸 Captures d'écran](#-captures-décran)
 - [⚙️ Installation locale](#️-installation-locale)
 - [🐳 Docker & CI/CD](#-docker--cicd)
 - [🔐 Configuration des variables](#-configuration-des-variables)
@@ -48,13 +47,6 @@ Une application météo en temps réel qui permet d’afficher les conditions ac
 - 🎨 Icônes modernes et animées
 - 🌗 Thème clair/sombre (facultatif)
 - 📱 Responsive sur mobile et desktop
-
----
-
-## 📸 Captures d'écran
-
-> _à ajouter ici quand tu veux, avec des balises markdown :_  
-> `![Screenshot](./screenshots/homepage.png)`
 
 ---
 
