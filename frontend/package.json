@@ -1,5 +1,13 @@
 {
   "name": "frontend",
+  "homepage": ".",
+  "description": "Frontend for the Weather App",
+  "author": "John Nguembu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnnguembu/weather-app.git"
+  },
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -35,3 +43,4 @@
     "vite": "^7.0.4"
   }
 }
+
