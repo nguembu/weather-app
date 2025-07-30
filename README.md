@@ -35,7 +35,6 @@ Une application météo en temps réel qui permet d’afficher les conditions ac
 - Docker / Docker Compose
 - GitHub Actions (CI/CD)
 - Netlify (déploiement frontend)
-- GitHub Secrets (sécurité)
 
 ---
 
@@ -54,7 +53,7 @@ Une application météo en temps réel qui permet d’afficher les conditions ac
 
 ### 1. Cloner le projet
 
-git clone https://github.com/tonpseudo/weather-app.git
+git clone https://github.com/nguembu/weather-app.git
 cd weather-app
 ### 2. Lancer avec Docker 🐳
 
@@ -77,11 +76,7 @@ Un docker-compose.yml à la racine orchestre le tout
 
 ### .github/workflows/deploy.yml
 - Build automatique du frontend
-- Déploiement sur Netlify via secrets
-Secrets à ajouter sur GitHub :
-NETLIFY_AUTH_TOKEN
-
-NETLIFY_SITE_ID
+- Déploiement sur Netlify
 
 ## 🔐 Configuration des variables
 ### Exemple .env pour le backend :
