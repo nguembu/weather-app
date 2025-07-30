@@ -1,0 +1,32 @@
+name: Deploy Meteo App
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: Build frontend
+      working-directory: frontend
+      run: |
+        npm install
+        npm run build
+
+    - name: Deploy to Netlify
+      uses: nwtgck/actions-netlify@v2.0
+      with:
+        publish-dir: frontend/build
+        production-branch: main
+        netlify-auth-token: ${{ github-deploy }}
+        netlify-site-id: ${{ nfp_AQuYeiEe9a8bJmpHQT55am8mVjdNHWDw98f8 }}
